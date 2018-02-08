@@ -4,7 +4,7 @@ name := "Healthttpd"
 version := sys.env.get("VERSION").getOrElse("0.1-SNAPSHOT")
 description := "A tiny Scala library that provides a lightweight health and readiness status server"
 organization := "mu.node"
-licenses += ("Apache License 2.0", url("https://choosealicense.com/licenses/apache-2.0/"))
+licenses += ("Apache-2.0", url("https://choosealicense.com/licenses/apache-2.0/"))
 
 scalaVersion := "2.12.4"
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
