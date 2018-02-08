@@ -29,6 +29,7 @@ I use Healthttpd to provide endpoints for [Kubenetes liveness and readiness prob
 Add the Healthttpd library to your `build.sbt`:
 
 ```
+resolvers += Resolver.bintrayRepo("vyshane", "maven")
 libraryDependencies += "mu.node" %% "healthttpd" % "0.1.0"
 ```
 
