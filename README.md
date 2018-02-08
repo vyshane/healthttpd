@@ -9,7 +9,7 @@ Healthttpd serves application status via HTTP/1.1. It provides two endpoints.
 Readiness indicates whether the application has finished initialization and is ready to do its job. You can poll this endpoint until you get a HTTP code 200 and then add the application to your load balancer.
 
 | Status | HTTP Code |
-| --- | --- | --- |
+| --- | --- |
 | Ready | 200 |
 | Not Ready | 503 |
 
@@ -18,7 +18,7 @@ Readiness indicates whether the application has finished initialization and is r
 Health indicates whether the application is healthy. For example, can it access all the resources that it depends on to do its job? If you get a HTTP code 500 back you can remove the application from your load balancer. Add it back in when the application is healthy again.
 
 | Status | HTTP Code |
-| --- | --- | --- |
+| --- | --- |
 | Healthy | 200 |
 | Unhealthy | 500 |
 
