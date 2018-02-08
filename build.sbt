@@ -9,6 +9,8 @@ licenses += ("Apache-2.0", url("https://choosealicense.com/licenses/apache-2.0/"
 scalaVersion := "2.12.4"
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
+resolvers += Resolver.jcenterRepo
+
 libraryDependencies ++= Seq(
   "org.nanohttpd" % "nanohttpd" % "2.3.1",
 
