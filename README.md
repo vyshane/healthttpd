@@ -35,7 +35,7 @@ libraryDependencies += "mu.node" %% "healthttpd" % "0.1.0"
 
 Start a Healthttpd server on port 8080, configure health check, and indicate ready status once the application is up and running.
 
-```
+```scala
 object UserService extends App {
 
   // Start Healthttpd early in your application lifecycle
